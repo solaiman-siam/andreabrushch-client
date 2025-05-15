@@ -1,23 +1,23 @@
 import type { IHowItWorks } from "../types/type";
+import { imageProvider } from "./imageProvider";
 
-
-export const howItWorksData : IHowItWorks[] = [
-    {
-    icon: '/icons/browse-events.png', // replace with your actual image path or import
-    title: 'Browse Events',
+export const howItWorksData: IHowItWorks[] = [
+  {
+    icon: imageProvider.SupportIcon, // replace with your actual image path or import
+    title: "Browse Events",
     description:
-      'Take a little break from the work stress of everyday. Discover plan trip and explore beautiful destinations.',
+      "Take a little break from the work stress of everyday. Discover plan trip and explore beautiful destinations.",
   },
   {
-    icon: '/icons/book-securely.png',
-    title: 'Book Securely',
+    icon: imageProvider.PlanIcon,
+    title: "Book Securely",
     description:
-      'Take a little break from the work stress of everyday. Discover plan trip and explore beautiful destinations.',
+      "Take a little break from the work stress of everyday. Discover plan trip and explore beautiful destinations.",
   },
   {
-    icon: '/icons/get-ticket.png',
-    title: 'Get Your E-Ticket',
+    icon: imageProvider.MapIcon,
+    title: "Get Your E-Ticket",
     description:
-      'Take a little break from the work stress of everyday. Discover plan trip and explore beautiful destinations.',
+      "Take a little break from the work stress of everyday. Discover plan trip and explore beautiful destinations.",
   },
-]
+];

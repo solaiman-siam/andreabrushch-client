@@ -3,9 +3,9 @@ import HeroSwiper from "./HeroSwiper";
 
 function Hero() {
   return (
-    <div className="py-6 ">
+    <div className="pt-6 pb-24 ">
       <Container>
-        <div className="px-10">
+        <div className="">
           <div className=" h-[800px] flex-col rounded-lg overflow-hidden relative flex items-center ">
             <h1 className="text-6xl w-6/12 text-center relative z-[5] font-bold pt-20 leading-[70px]">
               Explore Unique Tours and Cultural Events Near You

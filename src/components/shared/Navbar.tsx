@@ -1,5 +1,4 @@
 import { Link } from "react-router";
-import Container from "./Container";
 import { useState } from "react";
 
 function Navbar() {
@@ -26,8 +25,8 @@ function Navbar() {
 
   return (
     <div className="py-4">
-      <Container>
-        <div className="flex items-center justify-between">
+      
+        <div className="flex max-w-[1720px] mx-auto items-center justify-between">
           <div>
             <h1 className=" text-3xl">Logo Here</h1>
           </div>
@@ -51,7 +50,6 @@ function Navbar() {
             </Link>
           </div>
         </div>
-      </Container>
     </div>
   );
 }

@@ -1,6 +1,12 @@
 
 export interface IHowItWorks {
-    name: string;
+    title: string;
     icon: string;
     description: string
+}
+
+
+export interface SectionTitleProps {
+    innerText: string,
+    className?: string
 }
