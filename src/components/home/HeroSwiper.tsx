@@ -1,7 +1,7 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// // Import Swiper styles
+// @ts-expect-error
 import 'swiper/css';
 
 // import required modules

@@ -1,6 +1,6 @@
 import Container from "../shared/Container"
 import SectionTitle from "../shared/SectionTitle"
-import { Image } from "antd";
+// import { Image } from "antd";
 
 function Experience() {
   return (
