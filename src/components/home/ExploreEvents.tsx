@@ -3,6 +3,7 @@ import Container from "../shared/Container";
 import SectionTitle from "../shared/SectionTitle";
 import { Rating, Star } from "@smastrom/react-rating";
 import "@smastrom/react-rating/style.css";
+import ButtonPrimary from "../shared/ButtonPrimary";
 function ExploreEvents() {
   return (
     <div className="pt-24">
@@ -11,7 +12,7 @@ function ExploreEvents() {
           <SectionTitle innerText="Explore Events" />
 
           <div className="grid grid-cols-2 gap-8 pt-16">
-            <div className="grid grid-cols-2 bg-black/5 rounded-xl gap-4">
+            <div className="grid grid-cols-2 bg-black/5 group rounded-xl gap-4">
               <div className="w-full overflow-hidden group rounded-xl">
                 <img
                   className="w-full h-full group-hover:scale-110 transition-all duration-300 object-cover"
@@ -56,13 +57,14 @@ function ExploreEvents() {
                     <h4 className="text-description">From</h4>
                     <h3 className="font-semibold text-lg">$500.00</h3>
                   </div>
-                  <button className="px-12 py-2.5 cursor-pointer rounded-md text-sm bg-[#d76938] text-white">
-                    View Details
-                  </button>
+                  <ButtonPrimary
+                    innerText="View Details"
+                    className="px-10 text-sm py-2.5 font-normal rounded-sm"
+                  />
                 </div>
               </div>
             </div>
-            <div className="grid grid-cols-2 bg-black/5 rounded-xl gap-4">
+            <div className="grid grid-cols-2 bg-black/5 group rounded-xl gap-4">
               <div className="w-full overflow-hidden group rounded-xl">
                 <img
                   className="w-full h-full group-hover:scale-110 transition-all duration-300 object-cover"
@@ -107,13 +109,14 @@ function ExploreEvents() {
                     <h4 className="text-description">From</h4>
                     <h3 className="font-semibold text-lg">$500.00</h3>
                   </div>
-                  <button className="px-12 py-2.5 cursor-pointer rounded-md text-sm bg-[#d76938] text-white">
-                    View Details
-                  </button>
+                  <ButtonPrimary
+                    innerText="View Details"
+                    className="px-10 text-sm py-2.5 font-normal rounded-sm"
+                  />
                 </div>
               </div>
             </div>
-            <div className="grid grid-cols-2 bg-black/5 rounded-xl gap-4">
+            <div className="grid grid-cols-2 bg-black/5 group rounded-xl gap-4">
               <div className="w-full overflow-hidden group rounded-xl">
                 <img
                   className="w-full h-full group-hover:scale-110 transition-all duration-300 object-cover"
@@ -158,13 +161,14 @@ function ExploreEvents() {
                     <h4 className="text-description">From</h4>
                     <h3 className="font-semibold text-lg">$500.00</h3>
                   </div>
-                  <button className="px-12 py-2.5 cursor-pointer rounded-md text-sm bg-[#d76938] text-white">
-                    View Details
-                  </button>
+                  <ButtonPrimary
+                    innerText="View Details"
+                    className="px-10 text-sm py-2.5 font-normal rounded-sm"
+                  />
                 </div>
               </div>
             </div>
-            <div className="grid grid-cols-2 bg-black/5 rounded-xl gap-4">
+            <div className="grid grid-cols-2 bg-black/5 group rounded-xl gap-4">
               <div className="w-full overflow-hidden group rounded-xl">
                 <img
                   className="w-full h-full group-hover:scale-110 transition-all duration-300 object-cover"
@@ -209,13 +213,14 @@ function ExploreEvents() {
                     <h4 className="text-description">From</h4>
                     <h3 className="font-semibold text-lg">$500.00</h3>
                   </div>
-                  <button className="px-12 py-2.5 cursor-pointer rounded-md text-sm bg-[#d76938] text-white">
-                    View Details
-                  </button>
+                  <ButtonPrimary
+                    innerText="View Details"
+                    className="px-10 text-sm py-2.5 font-normal rounded-sm"
+                  />
                 </div>
               </div>
             </div>
-            <div className="grid grid-cols-2 bg-black/5 rounded-xl gap-4">
+            <div className="grid grid-cols-2 bg-black/5 group rounded-xl gap-4">
               <div className="w-full overflow-hidden group rounded-xl">
                 <img
                   className="w-full h-full group-hover:scale-110 transition-all duration-300 object-cover"
@@ -260,13 +265,14 @@ function ExploreEvents() {
                     <h4 className="text-description">From</h4>
                     <h3 className="font-semibold text-lg">$500.00</h3>
                   </div>
-                  <button className="px-12 py-2.5 cursor-pointer rounded-md text-sm bg-[#d76938] text-white">
-                    View Details
-                  </button>
+                  <ButtonPrimary
+                    innerText="View Details"
+                    className="px-10 text-sm py-2.5 font-normal rounded-sm"
+                  />
                 </div>
               </div>
             </div>
-            <div className="grid grid-cols-2 bg-black/5 rounded-xl gap-4">
+            <div className="grid grid-cols-2 bg-black/5 group rounded-xl gap-4">
               <div className="w-full overflow-hidden group rounded-xl">
                 <img
                   className="w-full h-full group-hover:scale-110 transition-all duration-300 object-cover"
@@ -274,7 +280,7 @@ function ExploreEvents() {
                   alt=""
                 />
               </div>
-              <div className="p group-hover:scale-110 transition-all duration-300-6">
+              <div className="p-7  transition-all duration-300-6">
                 <h3 className="text-xl font-semibold pb-4">
                   Volcano Hike To Mt. Liamuiga (Highest Peak On Island)
                 </h3>
@@ -306,21 +312,24 @@ function ExploreEvents() {
                   />
                   <h4 className="text-description">584 reviews</h4>
                 </div>
-                <div className="flex items-center justify-between gap-8 pt-6">
+                <div className="flex items-center justify-between pt-6">
                   <div>
                     <h4 className="text-description">From</h4>
                     <h3 className="font-semibold text-lg">$500.00</h3>
                   </div>
-                  <button className="px-12 py-2.5 cursor-pointer rounded-md text-sm bg-[#d76938] text-white">
-                    View Details
-                  </button>
+                  <ButtonPrimary
+                    innerText="View Details"
+                    className="px-10 text-sm py-2.5 font-normal rounded-sm"
+                  />
                 </div>
               </div>
             </div>
             <div className="flex justify-center col-span-2">
-                <button className="px-10 py-2.5 rounded-lg bg-primary01 text-white ">Explore more</button>
+              <ButtonPrimary
+                innerText="Explore More"
+                className="px-12 py-2.5 font-normal rounded-sm"
+              />
             </div>
-        
           </div>
         </div>
       </Container>

@@ -1,5 +1,6 @@
 import { Link } from "react-router";
 import { useState } from "react";
+import ButtonPrimary from "./ButtonPrimary";
 
 function Navbar() {
 
@@ -44,9 +45,7 @@ function Navbar() {
               </button>
             </Link>
             <Link to={""}>
-              <button className="px-12 cursor-pointer py-2.5 rounded-md bg-primary01 border-primary01 text-white border">
-                SignUp
-              </button>
+               <ButtonPrimary innerText="SignUp" className="px-10 border-primary01 py-2.5 font-normal rounded-sm"/>
             </Link>
           </div>
         </div>

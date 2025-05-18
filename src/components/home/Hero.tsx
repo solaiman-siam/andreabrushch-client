@@ -1,4 +1,5 @@
 import { imageProvider } from "../../lib/imageProvider";
+import ButtonPrimary from "../shared/ButtonPrimary";
 import Container from "../shared/Container";
 import HeroSwiper from "./HeroSwiper";
 import { DatePicker, type DatePickerProps } from 'antd';
@@ -37,7 +38,7 @@ function Hero() {
                <DatePicker className="h-10 w-52" onChange={onChange} />
               </div>
               <div>
-                <button className="px-8 py-2 rounded-sm cursor-pointer bg-primary01 text-white">Search</button>
+                <ButtonPrimary innerText="Search" className="px-8 py-2 font-normal rounded-sm"/>
               </div>
             </div>
             <div className="relative w-full pt-20 z-[8] px-8">

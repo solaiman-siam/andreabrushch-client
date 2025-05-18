@@ -1,3 +1,4 @@
+import ButtonPrimary from "../shared/ButtonPrimary";
 import Container from "../shared/Container";
 import SectionTitle from "../shared/SectionTitle";
 import SlotCounter from 'react-slot-counter';
@@ -30,7 +31,7 @@ function AttractionExperience() {
                 <div className="row-span-1">
                     <p className="text-description pt-3 font-light">Welcome to Local Caribbean Tours, your premier online marketplace for unforgettable travel experiences across the Caribbean. We specialize in connecting travelers with a diverse range of activities and tours offered by local operators throughout the region. Our mission is to showcase the unique charm, culture, and natural beauty of the Caribbean by providing authentic, high-quality tours that create lasting memories.</p>
 
-                    <button className="px-14 cursor-pointer py-2.5 mt-10 rounded-md bg-primary01 text-white ">Explore more</button>
+                     <ButtonPrimary innerText="Explore More" className="px-12 py-2.5 mt-12 font-normal rounded-sm"/>
 
                     <div className="flex items-center space-x-24 pt-10 ">
                         <div className="flex flex-col gap-1 justify-start">

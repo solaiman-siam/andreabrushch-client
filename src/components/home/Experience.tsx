@@ -12,7 +12,7 @@ function Experience() {
                 </div>
 
                 <div className="pt-16">
-                    <div className="grid grid-cols-4 gap-6">
+                    <div className="grid grid-cols-4  gap-6">
                         <div className="col-span-1 h-[400px] relative overflow-hidden rounded-xl group">
                             <img className="w-full h-full absolute z-[1] top-0 left-0 rounded-xl group-hover:scale-110 object-cover transition-all duration-300" src="https://images.unsplash.com/photo-1747217684909-dae62489c497?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                             <div className="w-full h-full top-0 left-0 bg-black/20 z-[2] absolute">
